@@ -13,7 +13,7 @@ base styles
 ====================================================*/
 @layer base {
     body {
-        font-family: "Zen Kaku Gothic New", sans-serif;
+        font-family: "Noto Sans TC", sans-serif;
         font-size: 1.6rem;
         line-height: 1.5;
         color: theme('colors.black');
@@ -26,11 +26,11 @@ base styles
         -ms-interpolation-mode: bicubic;
     }
     ::-moz-selection {
-        background-color: theme('colors.yellow.500');
+        background-color: theme('colors.black');
         color: theme('colors.white');
     }
     ::selection {
-        background-color: theme('colors.yellow.500');
+        background-color: theme('colors.black');
         color: theme('colors.white');
     }
 }
@@ -46,7 +46,5 @@ components styles　※Button、Card、Modal etc..
 utilities styles　※mergin、padding etc..
 ====================================================*/
 @layer utilities {
-    .text-shadow {
-        text-shadow: 2px 2px rgb(33 37 41 / 30%);
-    }
+    
 }
