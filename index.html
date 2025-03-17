@@ -20,11 +20,46 @@
 <body>
 
     <!-- header -->
-    <header>
-        <div class="">
-
-        </div>
+    <header class="bg-white fixed top-0 start-0 w-full z-[9998]">
+        <div class="container mx-auto px-6 py-2 flex justify-between items-center">
+            <!-- haederLogo -->
+            <h1 class="haederLogo">
+                <a href="index.html" class="hover:opacity-75 duration-300">
+                    <img src="assets/images/common/logo.webp" alt="INEAR" width="80" height="33">
+                </a>
+            </h1>
+            <!-- headerNav -->
+            <nav class="headerNav bg-white flex justify-center items-center md:block md:justify-normal z-[9999]">
+                <ul class="text-center md:flex md:justify-center items-center">
+                    <li class="md:px-6">
+                        <a href="index.html">首頁</a>
+                    </li>
+                    <li class="md:px-6 mt-6 md:mt-0">
+                        <a href="">最新消息</a>
+                    </li>
+                    <li class="md:px-6 mt-6 md:mt-0">
+                        <a href="">商品列表</a>
+                    </li>
+                    <li class="md:px-6 mt-6 md:mt-0">
+                        <a href="">關於我們</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- searchBtn -->
+            <div class="searchBtn pe-10 md:pe-0">
+                <a href="" class="hover:opacity-75 duration-300">
+                    <img src="assets/images/common/icon-search.webp" alt="搜尋" width="56" height="56">
+                </a>
+            </div>
+            <!-- hamburgerBtn -->
+            <div class="hamburgerBtn cursor-pointer md:hidden z-[9999] fixed top-5 end-[1.75rem]">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>   
     </header>
+    <div style="height: 72px;"></div>
 
     <!-- main -->
     <main>
