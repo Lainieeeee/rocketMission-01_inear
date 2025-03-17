@@ -14,7 +14,6 @@ base styles
 @layer base {
     body {
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 1.6rem;
         line-height: 1.5;
         color: theme('colors.black');
         font-weight: 400;
@@ -26,11 +25,11 @@ base styles
         -ms-interpolation-mode: bicubic;
     }
     ::-moz-selection {
-        background-color: theme('colors.black');
+        background-color: theme('colors.dark');
         color: theme('colors.white');
     }
     ::selection {
-        background-color: theme('colors.black');
+        background-color: theme('colors.dark');
         color: theme('colors.white');
     }
 }
