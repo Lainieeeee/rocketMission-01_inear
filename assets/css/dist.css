@@ -1109,6 +1109,16 @@ img {
   color: rgb(172 172 172 / var(--tw-placeholder-opacity, 1));
 }
 
+.placeholder-silver::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(172 172 172 / var(--tw-placeholder-opacity, 1));
+}
+
+.placeholder-silver::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(172 172 172 / var(--tw-placeholder-opacity, 1));
+}
+
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1233,13 +1243,13 @@ utilities styles　※mergin、padding etc..
     border-bottom-width: 1px;
   }
 
-  .md\:from-\[\#2B2B2B\]{
+  .md\:from-primary{
     --tw-gradient-from: #2B2B2B var(--tw-gradient-from-position);
     --tw-gradient-to: rgb(43 43 43 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
 
-  .md\:to-\[\#2B2B2B\]{
+  .md\:to-primary{
     --tw-gradient-to: #2B2B2B var(--tw-gradient-to-position);
   }
 
